@@ -10,7 +10,7 @@ langs_dict = GoogleTranslator().get_supported_languages(as_dict=True)
 
 def main():
     st.image("wallpaper.webp")
-    st.title(" PragyanAI - VVIET Workshop: Audio Hub")
+    st.title(" Nature - Beauty")
     
     audio_bytes = audio_recorder(text="Click to record", neutral_color="#6aa36f")
     
